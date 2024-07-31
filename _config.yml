@@ -21,7 +21,7 @@
 title: RDesk
 email: info@rdesk.ir
 description: RDesk - Remote Desktop Solution
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/rdesk.ir"
 url: "https://rdesk.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
