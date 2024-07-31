@@ -1713,7 +1713,7 @@
   .hero-14-txt p.p-xl { margin-bottom: 25px; }
 
   /* Hero-15 */
-  #hero-15 { padding-top: 80px; }
+  #hero-15 { padding-top: 0; }
   .hero-15-txt { padding: 0; }
   .hero-15-img { padding: 0; margin-top: 50px; }
 
