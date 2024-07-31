@@ -9456,21 +9456,23 @@ nav a#pull {
 29. Download App Section
 ========================================================================== */
 
-
 .os-selection {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 20px;
 }
 
 .os-selection .btn {
   transition: all 0.3s ease;
+  font-size: 14px;
+  padding: 8px 16px;
+  max-width: 110px;
 }
 
 .os-selection .btn.active {
   background-color: #ff3366;
-  color: #ffffff;
+  color: white;
   box-shadow: 0 0 10px rgba(255, 51, 102, 0.5);
 }
 
@@ -9482,7 +9484,31 @@ nav a#pull {
 }
 
 #download-options .btn {
+  font-size: 0.85rem;
+  padding: 8px 12px;
   margin: 5px;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.cta-11-txt p {
+  text-align: right !important;
+}
+
+@media (max-width: 576px) {
+  .os-selection {
+    justify-content: flex-start;
+  }
+
+  .os-selection .btn,
+  #download-options .btn {
+    flex-basis: calc(50% - 10px);
+    min-width: auto;
+  }
+
+  .cta-11-txt p {
+    text-align: right !important;
+  }
 }
 
 
