@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<html lang="{{ site.lang }}" dir="{{ site.direction }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title
+            }}</title>
+        <link rel="stylesheet"
+            href="{{ '/assets/css/style.css' | relative_url }}">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="دکترلندینگ" />
+        <meta name="generator" content="دکترلندینگ،عضو جدید گروه رایان" />
+        <meta name="description" content="توضیحات نرم افزار آردسک">
+        <meta name="keywords" content="کلمات کلیدی آردسک">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon"
+            href="{{ 'assets/images/favicon/favicon.ico' | relative_url }}"
+            type="image/x-icon">
+        <link rel="icon"
+            href="{{ 'assets/images/favicon/favicon.ico' | relative_url }}"
+            type="image/x-icon">
+        <link rel="apple-touch-icon"
+            href="{{ 'assets/images/favicon/apple-touch-icon.png' | relative_url }}">
+        <link rel="icon"
+            href="{{ 'assets/images/favicon/apple-touch-icon.png' | relative_url }}"
+            type="image/x-icon">
+        <link href="{{ 'assets/css/bootstrap.min.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/flaticon.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/menu.css' | relative_url }}"
+            rel="stylesheet">
+        <link id="effect"
+            href="{{ 'assets/css/dropdown-effects/fade-down.css' | relative_url }}"
+            media="all" rel="stylesheet">
+        <link href="{{ 'assets/css/magnific-popup.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/owl.carousel.min.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/owl.theme.default.min.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/animate.css"
+            rel="stylesheet' | relative_url }}">
+        <link href="{{ 'assets/css/style.css' | relative_url }}"
+            rel="stylesheet">
+        <link href="{{ 'assets/css/responsive.css' | relative_url }}"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+
+        <script
+            src="{{ '/assets/js/jquery-3.6.0.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/jquery.appear.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/imagesloaded.pkgd.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/isotope.pkgd.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/owl.carousel.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/jquery.magnific-popup.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/jquery.validate.min.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/jquery.ajaxchimp.min.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/jquery.vide.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/wow.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/platform-detection.js' | relative_url }}"></script>
+        <script
+            src="{{ '/assets/js/download-options.js' | relative_url }}"></script>
+
+    </body>
+</html>
