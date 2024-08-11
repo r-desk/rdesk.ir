@@ -21,8 +21,8 @@
 title: RDesk
 email: info@rdesk.ir
 description: RDesk - Remote Desktop Solution
-baseurl: "rdesk.adiyanat.com"
-url: "https://rdesk.adiyanat.com"
+baseurl: "https://rdesk.adiyanat.com"
+url: "/"
 twitter_username: jekyllrb
 github_username:  jekyll
 
