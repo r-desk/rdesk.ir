@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const downloadOptions = {
         windows: [
-            { name: 'ویندوز (x86-64)', url: './downloads/rdesk-1.2.4-install.exe' },
-            { name: 'ویندوز (x86-32)', url: './downloads/rdesk-sciter-1.2.4-x86.exe' }
+            { name: 'ویندوز (x86_64)', url: './downloads/rdesk-1.2.4-install.exe' },
+            { name: 'ویندوز (x86_32)', url: './downloads/rdesk-sciter-1.2.4-x86.exe' }
         ],
         mac: [
             { name: 'مک (x86_64)', url: './downloads/rdesk-1.2.4-x64-x86_64.dmg' },
