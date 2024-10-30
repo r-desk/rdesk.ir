@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     const downloadOptions = {
         windows: [
-            { name: 'ویندوز (x86/x64)', url: './downloads/rdesk-1.2.4-install.exe' },
-            { name: 'ویندوز (Sciter x86)', url: './downloads/rdesk-sciter-1.2.4-x86.exe' }
+            { name: 'ویندوز (x86-64)', url: './downloads/rdesk-1.2.4-install.exe' },
+            { name: 'ویندوز (x86-32)', url: './downloads/rdesk-sciter-1.2.4-x86.exe' }
         ],
         mac: [
             { name: 'مک (x86_64)', url: './downloads/rdesk-1.2.4-x64-x86_64.dmg' },
-            { name: 'مک (Sciter AMD64)', url: './downloads/rdesk-sciter-1.2.4-amd64.dmg' },
+            { name: 'مک (AMD64)', url: './downloads/rdesk-sciter-1.2.4-amd64.dmg' },
             { name: 'مک (ARM64)', url: './downloads/rdesk-1.2.4-arm64.pkg.tar.xz' }
         ],
         linux: [
