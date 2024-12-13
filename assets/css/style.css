@@ -7570,12 +7570,59 @@ border-radius: 100%; */
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    margin: 0 7px;
+    /* margin: 7px 7px; */
+}
+
+.owl-dots button {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
 }
 
 .owl-dots button:focus {
     outline: none;
     text-decoration: none;
+    color: black;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.owl-dots button.owl-dot {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.owl-dots button.owl-dot span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.owl-dots button.owl-dot:hover span {
+    background-color: #9ca3af;
+}
+
+.owl-dots button.owl-dot.active span {
+    background-color: #4b5563;
+    transform: scale(1.2);
+}
+
+.owl-dots button:focus {
+    outline: none;
 }
 
 /* ==========================================================================
