@@ -10273,6 +10273,10 @@ nav a#pull {
     .platform-item {
         flex: 1 1 calc(50% - 20px);
     }
+
+    .download-wrapper {
+        padding: 40px 20px;
+    }
 }
 
 .warning-container {
