@@ -27,7 +27,7 @@ title: صفحه اصلی
 
                                     <div id="download-options-top" class="mt-3">
 
-                                        <a class="btn btn-md btn-tra-orange-red other-platforms tra-white-hover" href="#download">
+                                        <a class="btn btn-md bg-blue other-platforms nowrap" href="#download">
                                                 دانلود برای سایر پلتفرم‌ها
                                         </a>
 
@@ -551,49 +551,46 @@ title: صفحه اصلی
         </div>
     </section>
 
-    <section id="download" class="pt-60 pb-60 cta-section division">
+    <!-- Download Section -->
+    <section id="download" class="download-section">
         <div class="container">
-            <div class="bg-skyblue cta-11-wrapper">
-                <div class="row d-flex align-items-top">
-                    <div class="col-lg-7">
-                        <div class="cta-11-txt">
-                            <h2 class="h2-xss white-color">اکنون آردسک را نصب
-                                کنید</h2>
-                            <p class="p-lg white-color">
-                                سیستم عامل خود را انتخاب کنید.
-                            </p>
-                            <div class="os-selection ico-80">
-                                <img
-                                    class="btn btn-md btn-tra-orange-red tra-white-hover"
-                                    src="assets/images/static/windows.svg"
-                                    data-os="windows"/>
-                                <img
-                                    class="btn btn-md btn-tra-orange-red tra-white-hover"
-                                    src="assets/images/static/mac.svg"
-                                    data-os="mac"/>
-                                <img
-                                    class="btn btn-md btn-tra-orange-red tra-white-hover"
-                                    src="assets/images/static/linux.svg"
-                                    data-os="linux"/>
-                                <img
-                                    class="btn btn-md btn-tra-orange-red tra-white-hover"
-                                    src="assets/images/static/android.svg"
-                                    data-os="android"/>
+            <div class="download-wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="download-content">
+                            <h2>اکنون آردسک را نصب کنید</h2>
+                            <!-- OS Selection -->
+                            <div class="os-platforms">
+                                <div class="platform-item active" data-os="windows">
+                                    <img src="assets/images/static/windows.svg" alt="Windows">
+                                    <span>ویندوز</span>
+                                </div>
+                                <div class="platform-item" data-os="mac">
+                                    <img src="assets/images/static/mac.svg" alt="macOS">
+                                    <span>مک اواس</span>
+                                </div>
+                                <div class="platform-item" data-os="linux">
+                                    <img src="assets/images/static/linux.svg" alt="Linux">
+                                    <span>لینوکس</span>
+                                </div>
+                                <div class="platform-item" data-os="android">
+                                    <img src="assets/images/static/android.svg" alt="Android">
+                                    <span>اندروید</span>
+                                </div>
                             </div>
-                            <br>
-                            <p class="p-lg white-color">
-                                نسخه مناسب در سیستم‌عامل انتخاب شده را دانلود کنید.
-                            </p>
-                            <div id="download-options" class="mt-3"></div>
+                            <!-- Version Info -->
+                            <div class="version-info">
+                                <span>نسخه فعلی: 1.2.4</span>
+                            </div>
+                            <!-- Download Options -->
+                            <div id="download-options" class="download-options">
+                                <!-- Content will be populated by JS -->
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="text-end">
-                            <div class="cta-11-img text-center">
-                                <img class="img-fluid"
-                                    src="assets/images/static/img-25.png"
-                                    alt="cta-image">
-                            </div>
+                        <div class="download-image">
+                            <img class="img-fluid" src="assets/images/static/img-25.png" alt="Remote Desktop">
                         </div>
                     </div>
                 </div>

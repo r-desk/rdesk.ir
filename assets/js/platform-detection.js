@@ -65,6 +65,8 @@ function detectUserOS() {
     }
   }
 
+  console.log(os, architecture);
+
   return {
     os: os,
     arch: architecture,
